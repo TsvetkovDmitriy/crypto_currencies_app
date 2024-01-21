@@ -2,6 +2,15 @@ import 'package:flutter/material.dart';
 
 class CryptoCurrenciesAppTheme {
   static final ThemeData darkTheme = ThemeData(
+      // primaryColor: Colors.yellow,
+      // focusColor: Colors.yellow,
+      // primaryColorDark: Colors.yellow,
+      textButtonTheme: TextButtonThemeData(
+        style: TextButton.styleFrom(
+          // textStyle: const TextStyle(color: Colors.yellow),
+          primary: Colors.yellow.shade700
+        )
+      ),
       iconTheme: const IconThemeData(color: Colors.white),
       scaffoldBackgroundColor: const Color.fromARGB(255, 31, 31, 31),
       dividerColor: Colors.white24,
